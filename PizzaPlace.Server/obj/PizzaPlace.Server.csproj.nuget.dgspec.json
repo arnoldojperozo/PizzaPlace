@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Server/PizzaPlace.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Client/PizzaPlace.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Client/PizzaPlace.Client.csproj",
+        "projectName": "PizzaPlace.Client",
+        "projectPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Client/PizzaPlace.Client.csproj",
+        "packagesPath": "/Users/arnoldo.perozo/.nuget/packages/",
+        "outputPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Client/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/arnoldo.perozo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/PizzaPlace.Shared.csproj": {
+                "projectPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/PizzaPlace.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Blazor.Browser": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Microsoft.AspNetCore.Blazor.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Server/PizzaPlace.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Server/PizzaPlace.Server.csproj",
+        "projectName": "PizzaPlace.Server",
+        "projectPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Server/PizzaPlace.Server.csproj",
+        "packagesPath": "/Users/arnoldo.perozo/.nuget/packages/",
+        "outputPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Server/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/arnoldo.perozo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Client/PizzaPlace.Client.csproj": {
+                "projectPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Client/PizzaPlace.Client.csproj"
+              },
+              "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/PizzaPlace.Shared.csproj": {
+                "projectPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/PizzaPlace.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Blazor.Server": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/PizzaPlace.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/PizzaPlace.Shared.csproj",
+        "projectName": "PizzaPlace.Shared",
+        "projectPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/PizzaPlace.Shared.csproj",
+        "packagesPath": "/Users/arnoldo.perozo/.nuget/packages/",
+        "outputPath": "/Users/arnoldo.perozo/Projects/Blazor/PizzaPlace/PizzaPlace.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/arnoldo.perozo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
